@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/it_logout"
+        android:title="@string/btn_logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/it_add_account"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/btn_add_account"/>
+    <item android:id="@+id/it_change_password"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_lock_outline_black_24dp"
+        android:title="@string/btn_change_password"/>
+</menu>
